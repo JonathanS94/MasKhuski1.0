@@ -8,6 +8,11 @@ import { Description } from "@mui/icons-material";
 
 const App = () => {
   return (
+
+    <>
+    <div>
+      <h1> Bienvenidos a maskhuski </h1>
+    </div>
     <BrowserRouter>
       <Routes>
         <Route path={"/who-we-are"} element={<WhoWeAre />} />
@@ -16,7 +21,9 @@ const App = () => {
         <Route path={"/contact-with-us"} />
       </Routes>
     </BrowserRouter>
-  );
+
+    </>
+      );
 };
 
 export default App;
