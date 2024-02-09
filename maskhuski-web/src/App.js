@@ -1,12 +1,12 @@
 import "./App.css";
-
 import Principal from "./pages/Principal/Principal";
 
 const App = () => {
   return (
-   <div>
+    <div>
       <Principal />
     </div>
+  );
 };
 
 export default App;
