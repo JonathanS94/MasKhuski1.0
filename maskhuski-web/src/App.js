@@ -1,7 +1,5 @@
 import "./App.css";
 
-import Monedas from "./components/Monedas/Monedas";
-
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Principal from "./pages/Principal/Principal";
@@ -11,17 +9,13 @@ import Intermedio from "./pages/Intermedio/Intermedio";
 
 const App = () => {
   return (
-    <div>
-      <Principal />
-      <Monedas />
-    </div>
-    
+  
     <BrowserRouter>
       <Routes>
         <Route exact path="/" element={<Principal />} />
         <Route path="/niveles" element={<Niveles />} />
-        <Route path="/niveles" element={<Principiante />} />
-        <Route path="/niveles" element={<Intermedio />} />
+        <Route path="/principiante" element={<Principiante />} />
+        <Route path="/intermedio" element={<Intermedio />} />
       </Routes>
     </BrowserRouter>
 
