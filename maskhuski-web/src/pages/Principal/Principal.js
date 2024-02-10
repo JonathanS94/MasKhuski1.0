@@ -13,8 +13,8 @@ const Principal = () => {
           <Typography level={"h1"} children={"Más Khuski"} />
           <Image
             className={classes.img}
-            src="/Logo_principal.jpeg"
-            alt="Billete 2"
+            src="/images/Logo_principal.jpeg"
+            alt="Logo_principal"
           />
           <Typography level={"h3"} children={"Cuenta Conmigo"} />
         </div>
