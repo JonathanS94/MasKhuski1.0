@@ -1,13 +1,21 @@
 import { createUseStyles } from "react-jss";
 
 export const useStyles = createUseStyles({
-  box: {
-    backgroundColor: "#FFF8E1",
-    height: "500px",
+  table: {
+    width: "100%",
+  },
+  tableCell: {
+    border: "1px solid #000",
+    padding: "8px",
     textAlign: "center",
   },
-  image: {
-    height: "350px",
-    width: "500px",
+  img: {
+    width: "50px",
+    height: "50px",
+  },
+  monedaContainer: {
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
   },
 });
