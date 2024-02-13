@@ -3,20 +3,18 @@ import { createUseStyles } from "react-jss";
 export const useStyles = createUseStyles({
   container: {
     display: "flex",
-    justifyContent: "center",
+    flexDirection: "column",
     alignItems: "center",
-    height: "100",
   },
-  contentContainer: {
-    display: "flex",
-    justifyContent: "space-between",
-    alignItems: "center",
+  table: {
+    borderCollapse: "collapse",
     width: "50%",
-    textAlign: "center",
+    margin: "auto",
   },
-  img: {
-    width: "400px",
-    height: "400px",
+  cell: {
+    border: "1px solid black",
+    padding: "80px",
+    fontSize: "80px",
   },
   button: {
     width: "300px",
