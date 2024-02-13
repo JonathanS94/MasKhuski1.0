@@ -11,14 +11,7 @@ export const useStyles = createUseStyles({
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
-    width: "80%",
-  },
-  contentLeft: {
-    flex: 1,
-    textAlign: "center",
-  },
-  contentRight: {
-    flex: 1,
+    width: "50%",
     textAlign: "center",
   },
   img: {
@@ -26,7 +19,9 @@ export const useStyles = createUseStyles({
     height: "400px",
   },
   button: {
-    width: "200px",
-    height: "100px",
+    width: "300px",
+    height: "150px",
+    fontSize: "20px",
+    border: "1px solid black",
   },
 });

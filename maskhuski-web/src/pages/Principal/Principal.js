@@ -9,16 +9,20 @@ const Principal = () => {
   return (
     <div className={classes.container}>
       <div className={classes.contentContainer}>
-        <div className={classes.contentLeft}>
-          <Typography level={"h1"} children={"Más Khuski"} />
+        <div>
+          <div style={{ fontSize: "36px" }}>
+            <Typography level={"h1"} children={"Más Khuski"} />
+          </div>
           <Image
             className={classes.img}
             src="/images/Logo_principal.jpeg"
             alt="Logo_principal"
           />
-          <Typography level={"h3"} children={"Cuenta Conmigo"} />
+          <div style={{ fontSize: "20px" }}>
+            <Typography level={"h2"} children={"Cuenta Conmigo"} />
+          </div>
         </div>
-        <div className={classes.contentRight}>
+        <div>
           <Button
             className={classes.button}
             variant={"contained"}
