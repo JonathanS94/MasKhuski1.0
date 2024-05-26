@@ -13,7 +13,7 @@ export const useStyles = createUseStyles({
   },
   cell: {
     border: "1px solid black",
-    padding: "80px",
+    padding: "100px",
     fontSize: "80px",
   },
   button: {
