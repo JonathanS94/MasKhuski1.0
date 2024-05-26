@@ -16,12 +16,12 @@ const Billetes = () => {
             <div className={classes.billeteContainer}>
               <Image
                 className={classes.img}
-                src="/images/billete2.jpeg"
+                src="/images/billete2.png"
                 alt="Billete 2"
               />
               <Image
                 className={classes.img}
-                src="/images/billete2.jpeg"
+                src="/images/billete2.png"
                 alt="Billete 2"
               />
             </div>
@@ -30,12 +30,12 @@ const Billetes = () => {
             <div className={classes.billeteContainer}>
               <Image
                 className={classes.img}
-                src="/images/billete5.jpeg"
+                src="/images/billete5.png"
                 alt="Billete 5"
               />
               <Image
                 className={classes.img}
-                src="/images/billete2.jpeg"
+                src="/images/billete2.png"
                 alt="Billete 2"
               />
             </div>
@@ -44,12 +44,12 @@ const Billetes = () => {
             <div className={classes.billeteContainer}>
               <Image
                 className={classes.img}
-                src="/images/billete10.jpeg"
+                src="/images/billete10.png"
                 alt="Billete 10"
               />
               <Image
                 className={classes.img}
-                src="/images/billete5.jpeg"
+                src="/images/billete5.png"
                 alt="Billete 5"
               />
             </div>
@@ -60,12 +60,12 @@ const Billetes = () => {
             <div className={classes.billeteContainer}>
               <Image
                 className={classes.img}
-                src="/images/billete10.jpeg"
+                src="/images/billete10.png"
                 alt="Billete 10"
               />
               <Image
                 className={classes.img}
-                src="/images/billete50.jpeg"
+                src="/images/billete50.png"
                 alt="Billete 50"
               />
             </div>
@@ -74,12 +74,12 @@ const Billetes = () => {
             <div className={classes.billeteContainer}>
               <Image
                 className={classes.img}
-                src="/images/billete20.jpeg"
+                src="/images/billete20.png"
                 alt="Billete 20"
               />
               <Image
                 className={classes.img}
-                src="/images/billete10.jpeg"
+                src="/images/billete10.png"
                 alt="Billete 10"
               />
             </div>
@@ -88,12 +88,12 @@ const Billetes = () => {
             <div className={classes.billeteContainer}>
               <Image
                 className={classes.img}
-                src="/images/billete50.jpeg"
+                src="/images/billete50.png"
                 alt="Billete 50"
               />
               <Image
                 className={classes.img}
-                src="/images/billete20.jpeg"
+                src="/images/billete20.png"
                 alt="Billete 20"
               />
             </div>

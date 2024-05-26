@@ -10,9 +10,9 @@ export const useStyles = createUseStyles({
   },
 
   button: {
-    width: "300px",
-    height: "150px",
-    fontSize: "20px",
+    width: "500px",
+    height: "200px",
+    fontSize: "30px",
     border: "1px solid black",
   },
 });

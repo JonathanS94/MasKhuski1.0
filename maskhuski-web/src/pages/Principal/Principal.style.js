@@ -15,13 +15,13 @@ export const useStyles = createUseStyles({
     textAlign: "center",
   },
   img: {
-    width: "400px",
-    height: "400px",
+    width: "500px",
+    height: "500px",
   },
   button: {
-    width: "300px",
-    height: "150px",
-    fontSize: "20px",
+    width: "600px",
+    height: "300px",
+    fontSize: "40px",
     border: "1px solid black",
   },
 });

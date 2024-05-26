@@ -10,20 +10,26 @@ const Niveles = () => {
     <div className={classes.interfazNivelesContainer}>
       <Typography level={"h1"} children={"Más Khuski"} />
       <div>
-        <Image src="/images/Logo_principal.jpeg" />
+        <Image src="/images/Logo_principal.png" />
       </div>
       <Typography level={"h3"} children={"Seleccione un Nivel:"} />
       <Button
         className={classes.button}
         variant={"contained"}
         value={"Principiante"}
-        href={"/Principiante"}
+        href={"/principiante"}
       ></Button>
       <Button
         className={classes.button}
         variant={"contained"}
         value={"Intermedio"}
         href={"/intermedio"}
+      ></Button>
+      <Button
+        className={classes.button}
+        variant={"contained"}
+        value={"Avanzado"}
+        href={"/avanzado"}
       ></Button>
     </div>
   );

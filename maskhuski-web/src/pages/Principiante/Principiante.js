@@ -9,7 +9,7 @@ const Principiante = () => {
 
   const [values, setValues] = useState([]);
   useEffect(() => {
-    const initialValue = ["$4", "$7", "$15", "$60", "$30", "$70"];
+    const initialValue = ["$1.25", "$1.05", "$0.15", "$0.60", "$0.15", "$0.55"];
     const shuffledValue = shuffleArray(initialValue);
     setValues(shuffledValue);
   }, []);

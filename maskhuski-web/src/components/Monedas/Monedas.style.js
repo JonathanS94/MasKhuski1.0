@@ -7,12 +7,12 @@ export const useStyles = createUseStyles({
   },
   tableCell: {
     border: "1px solid #000",
-    padding: "8px",
+    padding: "80px",
     textAlign: "center",
   },
   img: {
-    width: "70px",
-    height: "70px",
+    width: "300px",
+    height: "300px",
   },
   monedaContainer: {
     display: "flex",

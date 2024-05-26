@@ -15,7 +15,7 @@ const Principal = () => {
           </div>
           <Image
             className={classes.img}
-            src="/images/Logo_principal.jpeg"
+            src="/images/Logo_principal.png"
             alt="Logo_principal"
           />
           <div style={{ fontSize: "20px" }}>
